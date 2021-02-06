@@ -1,0 +1,72 @@
+body {
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #626262;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #474342;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #898377;
+}
+
+header .navbar-brand{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #4f5050;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+
+.slider {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
